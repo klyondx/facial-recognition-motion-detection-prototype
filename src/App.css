@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+.videoContainer {
+  position: relative;
+}
+
+.video {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+}
+
+.videoOverlay {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.sceneState {
+  color: #fb4c3c;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sceneState.hasFace {
+  color: #6cfb31;
+}
+
+.sceneState.loading {
+  color: #dffb6b;
+}
+
+.sceneState.snap {
+  color: #6cfb31;
+  font-weight: bolder;
+}
+
+.canvasHolder {
+  display: inline-block;
+}
+
+.canvasLabel {
+  font-size: 20px;
+}
