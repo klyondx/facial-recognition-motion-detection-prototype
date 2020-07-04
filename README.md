@@ -1,3 +1,5 @@
+![](motion.gif)
+
 Run in root:
 
 ### `yarn install`
